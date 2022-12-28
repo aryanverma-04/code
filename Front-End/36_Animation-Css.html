@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .animation{
+            position: relative;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 50px;
+            padding: 10px;
+            width: 97%;
+            height: 1cm;
+            display: flex;
+            justify-content: center;
+            
+            animation: loading;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes loading {
+            0%{
+                color: black;
+               background-color: blue; 
+            }
+            25%{
+                background-color: aqua;
+            }
+            50%{
+                color: black;
+
+                background-color: green;
+            }
+            75%{
+                background-color: yellow;
+            }
+            100%{
+                color: black;
+
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+        Loading...
+    </div>
+</body>
+</html>

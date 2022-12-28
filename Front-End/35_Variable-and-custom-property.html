@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Variables and custom properties in css</title>
+    <style>
+        body{
+            background-color: rgb(30, 255, 0);
+        }
+        :root{
+            --walk-color: red;
+            --wait-color: yellow;
+            --go-color: green;
+
+        }
+        .container{
+            border: 2px solid black;
+            width: 100%;
+            height: 5cm;
+            display: flex;
+        }
+        .mybox{
+            border: 2px solid red;
+            width: 32%;
+            height: 4cm;
+            /* justify-content: center; */
+            align-items: center;
+            margin: 10px;
+            justify-content: space-evenly;
+        }
+        #a{
+            background-color: var(--walk-color);
+        }
+        #b{
+            background-color: var(--wait-color);
+        }
+        #c{
+            background-color: var(--go-color);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="mybox" id="a"></div>
+        <div class="mybox" id="b"></div>
+        <div class="mybox" id="c"></div>
+    </div>
+    </body>
+</html>

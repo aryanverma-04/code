@@ -1,0 +1,198 @@
+body {
+    background-image: url('/web_dev_prac/bg.jpg');
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top: 10px;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: larger;
+    padding: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.left img {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.left div {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+
+}
+
+.btn {
+    background: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: medium;
+    border: 2px solid rgb(196, 193, 193);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+    text-decoration: underline;
+}
+
+.container .items {
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: auto;
+    margin: 47px 50px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    display: block;
+
+}
+
+.container .items a:hover {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    
+}
+
+.container a:visited {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+
+.container a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    margin-top: 600px;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 20px;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.footer a:active {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.footer a:link {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.end {
+    font-size: larger;
+    margin-top: 600px;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding: 30px;
+    text-align: left;
+}
+
+.end a:visited {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.end a:active {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.end a:link {
+    text-decoration: none;
+    color: black;
+    color: white;
+
+}
+
+.end a:hover {
+    text-decoration: none;
+    color: rgb(133, 122, 122);
+}
+

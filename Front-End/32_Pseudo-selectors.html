@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Pseudo selectos in CSS</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        
+        .Form,.Items{
+            background-color: tomato;
+        }
+        .Form{
+            margin: auto;
+            width: 200px;
+            display: block;
+        }
+        input{
+            margin: 10px;
+            border: 2px solid blue;
+            background: none;
+            font-family: sans-serif;
+        }
+        
+        button{
+            margin-left: 70px;
+        }
+        input[type="email"]{
+            color:red;
+            background-color: black;
+        }
+        input[type=":placeholder"]{
+            color: orangered;
+        }
+        li:nth-child(2n+2){
+            color: Red;
+        }
+        li:nth-child(odd){
+            color: rgb(0, 102, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://www.google.co.in/" target="_blank">Go to Google</a></h1>
+    <div class="Form">
+        <form action="noaction.php">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="Items">
+        <ol>
+            <li class="item" id="item1">Item-1</li>
+            <li class="item" id="item2">Item-2</li>
+            <li class="item" id="item3">Item-3</li>
+            <li class="item" id="item4">Item-4</li>
+            <li class="item" id="item5">Item-5</li>
+        </ol>
+    </div>
+</body>
+</html>

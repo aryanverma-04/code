@@ -1,0 +1,33 @@
+SoftEther is an open-source, free-to-use VPN protocol that provides quick
+and secure client-to-server and site-to-site communications. Another part of
+this software is the VPN bridge that supports the types above of
+communication.
+The SoftEther project also includes a SoftEther VPN server that allows the
+usage of several VPN protocols such as OpenVPN, SSTP, IPSec,
+L2TP/IPSec, and SoftEther itself.
+In essence, the SoftEther VPN project allows users to connect to a
+SoftEther VPN server with or without the SoftEther VPN client software. It
+also provides users with the ability to set up their servers. Users can move
+from one protocol to another in a few easy steps.
+
+Softether (Software Ethernet) is a project developed at the University of Tsukuba (Japan) by Daiyuu Nobori. It proposes a VPN protocol (Softether or SSL VPN) and the architecture of a VPN server capable of serving multiple VPN protocols (Softether, OpenVPN, SSTP, L2TP/IPSec) simultaneously.
+
+Both the Softether protocol and the Softether server are open-sourced, free, and cross-platform. Softether is presented as an alternative to OpenVPN, and it is considered to be faster.
+
+All the features SoftEther provides strengthen its ability to help users navigate safely and bypass any government firewall, making it a popular VPN (Virtual Private Network) protocol.
+
+Several of the SoftEther important features are listed below:
+
+Available under GNU GPL license;
+Uses 256-bit AES encryption;
+Supports SSL VPN, OpenVPN, EtherIP, L2TP, L2TPv3, and Microsoft’s SSTP protocols;
+Supports IPV6, packet filtering, and dynamic DNS function;
+It accepts both TCP and UDP connections;
+SoftEther VPN uses RSA certificate authentication and deep inspect packet logging function;
+SoftEther VPN client software implements Virtual Network Adapter, and the SoftEther server implements Virtual Ethernet Switch (called Virtual Hub);
+It runs on Windows, macOS, Linux, FreeBSD, Solaris, iOS, and Android.
+How does SoftEther work?
+
+How does SoftEther work?
+The SoftEther VPN server is the central piece of the SoftEther architecture. As listed above, it supports a lot of features, and it provides great performance. The most important aspect is the fact that the server supports multiple protocols: VPN over HTTPS (SoftEther), OpenVPN, SSTP, L2TP/IPSec. Thus, you may use a SoftEther server
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text shadow property of css</title>
+    <style>
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+        .container{
+            display: flex;
+            color: white;
+
+        }
+        .card{
+            border: 2px solid rgb(0, 0, 0);
+            margin: 10px 10px;
+            padding: 5px;
+            background-color: rgba(255, 41, 12, 0.918);
+            /* box-shadow: 10px 10px rgb(128, 243, 52); */
+            box-shadow: 10px 10px 50px rgba(128, 243, 52, 0.63);
+            /* box-shadow: 10px 10px 4px rgba(143, 255, 69, 0.438); */
+            /* box-shadow: inset px 5px green; */
+
+        }
+        h2{
+            text-shadow: 3px 3px rgb(0, 0, 0);
+            /* text-shadow: -10px -10px rgba(255, 255, 255, 0.733); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="id1">
+            <h2>Youtube</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet repellat ipsa illum, veniam reiciendis. Consequuntur, molestiae explicabo velit at vitae vero alias omnis pariatur reiciendis quaerat facilis voluptatem unde nesciunt libero enim possimus tempora.</p>
+        </div>
+        <div class="card" id="id2">
+            <h2>Snapchat</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet repellat ipsa illum, veniam reiciendis. Consequuntur, molestiae explicabo velit at vitae vero alias omnis pariatur reiciendis quaerat facilis voluptatem unde nesciunt libero enim possimus tempora.</p>
+        </div>
+        <div class="card" id="id3">
+            <h2>Instagram</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet repellat ipsa illum, veniam reiciendis. Consequuntur, molestiae explicabo velit at vitae vero alias omnis pariatur reiciendis quaerat facilis voluptatem unde nesciunt libero enim possimus tempora.</p>
+        </div>
+        <div class="card" id="id4">
+            <h2>Twitter</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet repellat ipsa illum, veniam reiciendis. Consequuntur, molestiae explicabo velit at vitae vero alias omnis pariatur reiciendis quaerat facilis voluptatem unde nesciunt libero enim possimus tempora.</p>
+        </div>
+        
+    </div>
+</body>
+</html>

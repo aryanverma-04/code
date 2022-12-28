@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition property in CSS</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: black;
+        color: white;
+        font-family: cursive;
+        font-size: 24px;
+    }
+    .container{
+        background-color: tomato;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        border: 1px solid black;
+        box-shadow: 5px 5px 5px black;
+        padding: 2px;
+        transition: all;
+        transition: all 5s ease-in-out;
+    }
+    .box:hover{
+        background-image: url('https://www.india.com/wp-content/uploads/2017/11/salman-tiger-zinda-hai.jpg');
+        height: 900px; 
+        width: 500px; 
+        /* transform: rotate(360deg); */
+        /* transform: skew(40deg); */
+        /* transform: scale(3); */
+    }
+</style>
+<body>
+   
+    <div class="container">
+        <div class="box">
+            ♦♦♦ Salmon Bhoi ♦♦♦
+        </div>
+        
+    </div>
+
+</body>
+</html>

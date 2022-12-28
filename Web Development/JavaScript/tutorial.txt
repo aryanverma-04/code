@@ -1,0 +1,23 @@
+Javascript Mostly runs on client side
+it is used for frontend as well as for backend
+
+to add Javascript into an HTML document we use <script> tag.
+
+// To add an alert into the screen we use func: alert("This is an alert")
+
+// To Print something into the COnsole we use: Console.log("This is printed into Console")
+
+// To auto click any button using class: document.querySelector(".classA").click()
+                                  Id   : document.getElementById("idOfElement")
+
+// To target any HTML code using ID: targetThis.innerHTML = "new html"
+
+// To get ID of any Element simply write id of the element in the console: it will return the id.
+
+// getElementByTagname: will return an array of all elements with same tag, can be accessed using array Indexing[]
+    Like this: document.getElementsByTagName('h1')[0]
+    we can even control CSS by adding .style.(CSS)
+
+...........................................................................................................................
+ 
+To Write something into the document use tag document.write // But dont use it

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance selectors</title>
+    <style>
+        body{
+            background-color: magenta;
+            font-family: sans-serif;
+        }
+        /* div p{
+            background-color: aqua;
+        } */
+
+        li > p{
+            background-color: aqua;
+        }
+        ul+p{
+            background-color: red;
+        }
+        div+p{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <p>
+                    Im inside the list 
+                </p>
+            </li>
+        </ul>
+        <p>
+            Im out of list
+        </p>
+    </div>
+    <p>
+        I out of any div
+    </p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+Encryption is the best way to ensure attackers can’t read your files. It scrambles your files into random-looking gibberish and you need a secret key to access them. Even if someone gains access to your physical hard drive, they’ll need your password (or key file) to actually see what you have on the drive. Of course, this doesn’t protect you against malware that attacks your PC while it’s running—just against someone stealing your PC or its hard drive and trying to view your files.
+
+Veracrypt is open-source, which makes it very secure. You can encrypt simple containers or the whole disk
+with various top-of-the-line encryption algorithms and a choice of hash algorithms. The option to use
+keyholes and PIM (Personal Iterations Multiplier) makes the encrypted data extremely safe..
+
+VeraCrypt is an open source and free software which enables a user for creating the drive volume drive that is encrypted with strong security layers on Linux, Mac, and Windows. It includes plugging of all the security holes that are known in TrueCrypt and enhances the methods of encryption that are weak.
+
+The users of VeraCrypt security tool don’t have to get apprehended about the attacks like DDoS, malware or customers data breaching. It protects the information and data effectively. This security tool offers several benefits for creating the files containers that are encrypted, volumes and encrypting the operating systems securely.
+
+VeraCrypt can also integrate the advanced security to its features and includes immunization of several bugs that are there in TrueCrypt.
+
+Features of VeraCrypt
+
+The main features of VeraCrypt are:
+
+• It can create the virtual encrypted disk within a file and ensures mounting the real disk.
+
+• It also includes encrypting the partition or drive if the windows are installed.
+
+• It offers plausible deniability by any chance an adversary pushes the user for revealing the password.
+
+• The encryption on modern processors is hardware-accelerated.
+
+• This security tool also ensures encrypting the storage device or entire partition like a hard drive and USB drive.
+
+• The encryption initiated by the VerCrypt is real-time, transparent and automatic.
+
+Advantages of VeraCrypt
+
+The benefits of VeraCrypt are:
+
+• There are no time constraints associated with the VeraCrypt. The users can interrupt the process of encryption and decryption whenever they want and further can resume anytime.
+
+• The users can run the VeraCrypt security tool in the mode that is portable, enabling them to carry it on the flash drive. The users also don’t require any installation on the system to run the tool.
+
+• It is tough to identify the data once it is encrypted by the security tool. So, it gets difficult for hackers to identify the information or data.
+
+• On-the-fly-encryption is another benefit of the VeraCrypt security tool. The encryption of data is magically encrypted. Without any interference of a user, it is easy to encrypt or decrypt the data.
+
+How can you make use of the VeraCrypt security tool?
+
+If you want to know that how can you can use the VeraCrypt security tool then make sure to follow the tips given below:
+
+• Once you download the VeraCrypt, make sure to check the integrity of installers through the use of digital signatures for ensuring that the attackers do not transform the file.
+
+• Make sure you backup your files before the process of encryption for avoiding the loss of the data in case failure takes places.
+
+• You should be creating the rescue disk in case of partition of the encrypting system on an external device such as a flash drive or CD. It helps in restoring the failure of the system.
+
+• Make sure you are using the passwords that are strong with the use of letters combination, digits, letters, and symbols. You should save the passwords because if you lose it, then it means you will lose the data.
+
+• You can choose the algorithms of hash and encryption as per your requirements of security.
+

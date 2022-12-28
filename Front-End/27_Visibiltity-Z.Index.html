@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibilty and Z Index in HTMl</title>
+    <style>
+        body{
+            background-color: orangered;
+
+        }
+        .box{
+            border: 2px solid black;
+            margin: 10px;
+            padding-left: 20px;
+            padding: 5px;
+            width: 70px;
+            height: 70px;
+        }
+        #box1{
+            padding-left: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: absolute;
+            background-color: aqua;
+            margin-left: 0px;
+            /* display: none; */
+        }
+        #box2{
+            position: absolute;
+            background-color: yellow;
+            margin-left: 100px;
+        }
+        #box3{
+            position: absolute;
+            background-color: skyblue;
+            margin-left: 200px;
+        }
+        #box4{
+            position: absolute;
+            margin-left: 400px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">
+        <p>
+            Insta-Finsta
+        </p>
+    </div>
+    <div class="box" id="box2">
+        youtube
+    </div>
+    <div class="box" id="box3">
+        Facebook
+    </div>
+    <div class="box" id="box4">
+        Amazon
+    </div>
+</body>
+</html>

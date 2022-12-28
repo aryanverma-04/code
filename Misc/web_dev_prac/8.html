@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <style>
+        div{
+            color: white;
+        }
+        body{
+            color: white;
+            background-color: black;
+        }
+        form div input, textarea, select{
+            background-color: peachpuff;
+        }
+        div{
+            margin: 20px;
+            padding: 2px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Please fill in the details below</h3>
+    <form action="aryan.php">
+        <div>
+            Name <input type="text" name="myname">
+        </div>
+        <div>
+            Age <input type="text" name = "myage">
+        </div>
+        <div>Email <input type="email" name = "myemail"></div>
+        <div>Password
+            <input type="password" name = "mypass">
+        </div>
+        <div>
+            Gender: Male <input type="radio" name = mygen>
+             Female <input type="radio" name = mygen>
+             Others <input type="radio" name = mygen>
+        </div>
+        <div>
+            are you eligible <input type="checkbox">
+        </div>
+        Write about yourself: <br><textarea name="myText"  cols="50" rows="5"></textarea>
+        <div>choose color <input type="color"></div>
+        <div>
+            <label for="car"></label>
+            <select name="mycar" id="car">
+                <option value="none" selected>None</option>
+                <option value="bmw">bmw</option>
+                <option value="rolls royace">rolls royace</option>
+                <option value="lambo">lambo</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset form">
+        </div>
+    </form>
+</body>
+</html>
