@@ -27,5 +27,6 @@ int main()
     int size = 5;
     cout<<"the size of the array is: "<<size<<endl;
     cout<<isSorted(arr, size);
+    cout<<"new array"<<endl;
     return 0;
 }
