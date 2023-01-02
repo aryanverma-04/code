@@ -44,8 +44,9 @@ int power(int a, int b){
     else{
         return power(a, b/2) * power(a, b/2);
     }
-
 }
+
+
 int main()
 {
     // string a = "sum";
@@ -54,6 +55,6 @@ int main()
     // cout<<checkPalindrome(a, 0, a.length() - 1);
     // cout << a << endl;
 
-    cout<<power(2, 10);
+    // cout<<power(2, 10);
     return 0;
 }
