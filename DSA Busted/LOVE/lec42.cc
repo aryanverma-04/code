@@ -86,7 +86,6 @@ int main()
     // ram.getDetails();
     // krishna.getDetails();
 
-    cout<<database::aryan;
-    cout<<database::staticDetails();
+    // cout<<database::aryan; 
     return 0;
 }
