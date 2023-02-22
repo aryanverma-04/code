@@ -96,20 +96,30 @@ int main()
     // insertHead(head, 40);
     // printList(head);
 
-    insertTail(tail, 20);
-    insertTail(tail, 30);
-    insertTail(tail, 40);
-    insertHead(head, 50);
-    printList(head);
-
-    // insertAtPosition(head, tail, 68, 1);
+    // insertTail(tail, 20);
+    // insertTail(tail, 30);
+    // insertTail(tail, 40);
+    // insertHead(head, 50);
     // printList(head);
-
+    cout<<"\nName: Aryan verma, Uid: 20bcs3651 "<<endl;
+    insertAtPosition(head, tail, 60, 1);
+    insertAtPosition(head, tail, 28, 2);
+    cout<<"Originial linked List: ";
     printList(head);
-    deleteNode(head, 5);
-    cout << "Head is: " << head->data << endl;
-    cout << "tail is: " << tail->data << endl;
+
+    deleteNode(head, 1);
+    cout<<"linked List after deletion of element: ";
     printList(head);
 
+    // cout << "Head is: " << head->data << endl;
+    // cout << "tail is: " << tail->data << endl;
+
+    insertAtPosition(head, tail, 22, 3);
+    insertAtPosition(head, tail, 100, 1);
+    insertAtPosition(head, tail, 62, 2);
+
+    cout<<"linked List after Inserting of elements: ";
+    printList(head);
+    cout<<endl;
     return 0;
 }
