@@ -21,12 +21,23 @@ void printer(int n){
     printer(n-1);
     cout<<n<<" ";
 }
+void reachHome(int src, int dest){
+    cout<<src<<" "<<dest<<endl;
+    if(src == dest){
+        cout<<"reach"<<endl;
+        return;
+    }   
+    src++;
+    reachHome(src, dest);
+}
+
 int main()
 {
-    cout<<factorial(5);
-    cout<<endl;
+    // cout<<factorial(5);
+    // cout<<endl;
     cout<<powerOfTwo(5);
-    cout<<endl;
-    printer(10000);
+    // cout<<endl;
+    // printer(10000);
+    reachHome(1, 10);
     return 0;
 }
