@@ -4,6 +4,7 @@
         "cmath": "cpp",
         "ostream": "cpp",
         "array": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "bitset": "cpp"
     }
 }
